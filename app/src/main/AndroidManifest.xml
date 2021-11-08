@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SucursalesApp">
+        <activity android:name=".ListaDireccionesActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PrincipalActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
